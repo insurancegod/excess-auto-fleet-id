@@ -1,0 +1,22 @@
+# Dependencies
+node_modules
+package-lock.json
+yarn-lock.yml
+
+# Production build (Next.js)
+.out
+*.local
+
+# Corgi DB cache (persistent across restarts)
+~/.corgi-cache/
+
+# Environment variables (if any committed)
+.env
+*.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
